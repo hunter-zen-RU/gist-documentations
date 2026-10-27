@@ -15,7 +15,11 @@ _CURL_
 ```
 URL=https://gist.githubusercontent.com/hunter-zen-RU/5d2a7836d4326167e167bf5eb7f612d4/raw/7abe90ffe612da6eda39714fbd1999b0bd80ca25/pyp.sh;curl -fsSL $URL | bash -s -- -y <pkg>
 ```
-examples
+_curl-express_
+```
+curl -fsSL https://gist.githubusercontent.com/hunter-zen-RU/5d2a7836d4326167e167bf5eb7f612d4/raw/7abe90ffe612da6eda39714fbd1999b0bd80ca25/pyp.sh | bash -s -- -h
+```
+examples 
 ```
 URL=https://gist.githubusercontent.com/USER/GIST_ID/raw/pyinstall.sh
 
